@@ -24,3 +24,32 @@ Setelah sinyal difilter, hasilnya divisualisasikan secara real-time menggunakan 
 17 desember - pembuatan code   
 20 desember - revisi error   
 24 desember - final code   
+
+# Instruksi Instalasi dan Penggunaan Program
+## Persyaratan Sistem
+Pastikan Anda memiliki hal-hal berikut sebelum menjalankan program:
+- Python 3.6 atau versi lebih baru
+Paket-paket Python yang diperlukan:
+- opencv-python
+- numpy
+- matplotlib
+- scipy
+## Instalasi
+1. Clone Repository
+   Clone repository ini ke komputer Anda menggunakan perintah berikut:
+   git clone https://github.com/username/repository-name.git
+cd repository-name
+2. Install Dependensi
+   Install semua dependensi yang dibutuhkan:
+   - pip install -r requirements.txt
+3. Pastikan Webcam Berfungsi
+   Program ini menggunakan webcam, jadi pastikan webcam Anda terhubung dan berfungsi.
+## Cara Menggunakan
+1. Jalankan program dengan perintah berikut:
+   - python main.py
+     Ganti main.py dengan nama file Python Anda jika berbeda.
+2. Setelah program dijalankan, jendela webcam akan muncul dan:
+   - Wajah akan dideteksi menggunakan Haar Cascade.
+   - Data sinyal respirasi dan rPPG (Remote Photoplethysmography) akan dianalisis secara real-time.
+   - Plot sinyal akan ditampilkan menggunakan matplotlib.
+3. Tekan tombol q pada keyboard untuk keluar dari program.
