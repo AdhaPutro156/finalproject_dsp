@@ -37,8 +37,8 @@ Paket-paket Python yang diperlukan:
 ## Instalasi
 1. Clone Repository
    Clone repository ini ke komputer Anda menggunakan perintah berikut:
-   git clone https://github.com/username/repository-name.git
-cd repository-name
+   - git clone https://github.com/AdhaPutro156/finalproject_dsp.git
+   - cd finalproject_dsp
 2. Install Dependensi
    Install semua dependensi yang dibutuhkan:
    - pip install -r requirements.txt
