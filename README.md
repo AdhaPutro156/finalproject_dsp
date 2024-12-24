@@ -47,7 +47,7 @@ Paket-paket Python yang diperlukan:
 ## Cara Menggunakan
 1. Jalankan program dengan perintah berikut:
    - python main.py
-     Ganti main.py dengan nama file Python Anda jika berbeda.
+     (Ganti main.py dengan nama file Python Anda jika berbeda.)
 2. Setelah program dijalankan, jendela webcam akan muncul dan:
    - Wajah akan dideteksi menggunakan Haar Cascade.
    - Data sinyal respirasi dan rPPG (Remote Photoplethysmography) akan dianalisis secara real-time.
